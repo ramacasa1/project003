@@ -1,10 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+//base
+@import 'base/reset';
 
-h1 {
-    color: aqua;
-    font-size: 30px;
-}
+//componentes
+@import 'componentes/navbar';
+@import 'components/footer';
+
+//layouts
+@import 'layout/index';
+@import 'layout/shows'
