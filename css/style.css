@@ -2,10 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 ul {
@@ -31,19 +33,46 @@ ul {
   color: grey;
 }
 
-h1 {
-  color: aqua;
-  font-size: 30px;
-}
-
-section p {
-  color: palevioletred;
-}
-
 section img {
   width: 100%;
   object-fit: cover;
   height: 600px;
+}
+
+.cards {
+  margin: 20px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards:first-child {
+  align-items: flex-end;
+}
+
+.cards-div {
+  width: 1000px;
+  margin-bottom: 30px;
+  display: flex;
+  border: 4px solid white;
+  border-radius: 7px;
+  align-items: center;
+}
+
+.cards-div img {
+  width: 55%;
+  height: 300px;
+  object-fit: cover;
+  justify-content: center;
+}
+
+.text-cards {
+  width: 45%;
+  padding: 15px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
