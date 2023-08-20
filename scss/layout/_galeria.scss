@@ -1,0 +1,149 @@
+
+hr {
+    margin-top: 13px;
+}
+
+.grilla {
+    min-height: 100vh;
+    max-height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:  
+    'area1 area1 area2 area2'
+    'area3 area3 area2 area2'
+    'area3 area3 area4 area4'
+    'area5 area5 area4 area4'
+    'area5 area5 area6 area6'
+    'area7 area7 area6 area6'
+    'area7 area7 area8 area8'
+    'area9 area10 area11 area12'
+;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.caja {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.c1 {
+    grid-area: area1;
+    transition: 0.4s;
+
+    &:hover {
+        transform: scale(1.05,1.05);
+    }
+
+}
+
+.c2 {
+    grid-area: area2;
+    transition: 0.4s;    
+
+    &:hover {
+        transform: scale(1.05,1.05);
+    }
+}
+
+.c3 {
+    grid-area: area3;
+    transition: 0.4s;
+
+    &:hover {
+        transform: scale(1.05,1.05);
+    }
+}
+
+.c4 {
+    grid-area: area4;
+    transition: 0.4s;
+    border-radius: 0px;
+
+    &:hover {
+        transform: scale(1.05,1.05);
+    }
+}
+
+.c5 {
+    grid-area: area5;
+    transition: 0.4s;
+
+    &:hover {
+        transform: scale(1.05,1.05);
+    }
+}
+
+.c6 {
+    grid-area: area6;
+    transition: 0.4s;
+
+    &:hover {
+        transform: scale(1.05,1.05);
+    }
+}
+
+.c7 {
+    grid-area: area7;
+    transition: 0.4s;    
+
+    &:hover {
+        transform: scale(1.05,1.05);
+    }
+}
+
+.c8 {
+    grid-area: area8;
+    transition: 0.4s;    
+
+    &:hover {
+        transform: scale(1.05,1.05);
+    }
+}
+
+.c9 {
+    grid-area: area9;
+    transition: 0.4s;    
+
+    &:hover {
+        transform: scale(1.05,1.05);
+    }
+}
+
+.c10 {
+    grid-area: area10;
+    transition: 0.4s;    
+
+    &:hover {
+        transform: scale(1.05,1.05);
+    }
+}
+
+.c11 {
+    grid-area: area11;
+    transition: 0.4s;    
+
+    &:hover {
+        transform: scale(1.05,1.05);
+    }
+}
+
+.c12 {
+    grid-area: area12;
+    transition: 0.4s;    
+
+    &:hover {
+        transform: scale(1.05,1.05);
+    }
+}

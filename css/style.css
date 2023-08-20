@@ -37,17 +37,28 @@ hr {
   color: white;
 }
 
-footer img {
+footer p {
+  color: white;
+  text-align: center;
+  padding-bottom: 39px;
+}
+
+.redes {
   display: flex;
-  width: 500px;
-  height: 211px;
-  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+  gap: 20px;
+}
+.redes img {
+  width: 90px;
+  height: 90px;
 }
 
 section img {
   width: 100%;
   object-fit: cover;
-  height: 600px;
+  height: 90vh;
 }
 
 .cards-section {
@@ -62,6 +73,10 @@ section img {
   flex-direction: column;
   align-items: end;
   width: 800px;
+  transition: 0.4s;
+}
+.cards:hover {
+  width: 900px;
 }
 
 .cards-div {
@@ -71,7 +86,6 @@ section img {
   border-radius: 15px;
   align-items: center;
 }
-
 .cards-div img {
   width: 55%;
   height: 300px;
@@ -88,6 +102,160 @@ section img {
   align-items: center;
   color: white;
   font-size: 16px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+main img {
+  margin: 30px;
+  height: 800px;
+}
+
+.shows-america {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 600px;
+  gap: 30px;
+}
+
+.lugares {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+.lugares .lugares-text {
+  color: white;
+  gap: 40px;
+}
+
+hr {
+  margin-top: 13px;
+}
+
+.grilla {
+  min-height: 100vh;
+  max-height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "area1 area1 area2 area2" "area3 area3 area2 area2" "area3 area3 area4 area4" "area5 area5 area4 area4" "area5 area5 area6 area6" "area7 area7 area6 area6" "area7 area7 area8 area8" "area9 area10 area11 area12";
+  gap: 10px;
+  padding: 10px;
+}
+
+.caja {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caja img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.c1 {
+  grid-area: area1;
+  transition: 0.4s;
+}
+.c1:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c2 {
+  grid-area: area2;
+  transition: 0.4s;
+}
+.c2:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c3 {
+  grid-area: area3;
+  transition: 0.4s;
+}
+.c3:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c4 {
+  grid-area: area4;
+  transition: 0.4s;
+  border-radius: 0px;
+}
+.c4:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c5 {
+  grid-area: area5;
+  transition: 0.4s;
+}
+.c5:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c6 {
+  grid-area: area6;
+  transition: 0.4s;
+}
+.c6:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c7 {
+  grid-area: area7;
+  transition: 0.4s;
+}
+.c7:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c8 {
+  grid-area: area8;
+  transition: 0.4s;
+}
+.c8:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c9 {
+  grid-area: area9;
+  transition: 0.4s;
+}
+.c9:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c10 {
+  grid-area: area10;
+  transition: 0.4s;
+}
+.c10:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c11 {
+  grid-area: area11;
+  transition: 0.4s;
+}
+.c11:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c12 {
+  grid-area: area12;
+  transition: 0.4s;
+}
+.c12:hover {
+  transform: scale(1.05, 1.05);
 }
 
 /*# sourceMappingURL=style.css.map */
