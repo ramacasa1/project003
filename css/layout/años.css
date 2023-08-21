@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.primeras, .segundas, .terceras, .cuartas, .quintas, .sextas, .septimas {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 10px 50px;
+  justify-content: center;
+  overflow: hidden;
+}
+.primeras .session, .segundas .session, .terceras .session, .cuartas .session, .quintas .session, .sextas .session, .septimas .session {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.primeras .session a, .segundas .session a, .terceras .session a, .cuartas .session a, .quintas .session a, .sextas .session a, .septimas .session a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=a%C3%B1os.css.map */

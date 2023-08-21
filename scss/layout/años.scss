@@ -1,0 +1,38 @@
+@mixin sessions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin sessions-a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.primeras, .segundas, .terceras, .cuartas, .quintas, .sextas, .septimas {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 10px 50px;
+    justify-content: center;
+    overflow: hidden;
+
+    .session {
+        @include sessions;
+        
+        a {
+            @include sessions-a
+        }
+
+    }
+
+}
+

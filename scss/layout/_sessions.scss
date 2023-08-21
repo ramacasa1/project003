@@ -1,0 +1,88 @@
+.discografia {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 200px;
+}
+
+.parte1 {
+    margin: 0px 40px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parte2 {
+    margin: 0px 40px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@mixin propiedades {
+    text-decoration: none;
+    color: white;
+    padding: 150px;
+}
+
+.doscerounonueve {
+
+    a {
+        @include propiedades;
+        background-color: brown;
+
+        &:hover {
+            filter: opacity(0.75)
+        }
+    }
+}
+
+.doscerodoscero {
+
+    a {
+        @include propiedades;
+        background-color: cadetblue;
+    }
+
+    &:hover {
+        filter: opacity(0.75)
+    }
+}
+
+.doscerodosuno {
+    
+    a {
+        @include propiedades;
+        background-color: crimson
+    }
+
+    &:hover {
+        filter: opacity(0.75)
+    }
+}
+
+.doscerodosdos {
+    
+    a {
+        @include propiedades;
+        background-color: darkviolet;
+    }
+
+    &:hover {
+        filter: opacity(0.75)
+    }
+}
+
+.doscerodostres {
+    
+    a {
+        @include propiedades;
+        background-color: palevioletred;
+    }
+
+    &:hover {
+        filter: opacity(0.75)
+    }
+}
