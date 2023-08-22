@@ -1,12 +1,12 @@
-.header {
+ .header {
     background-color: #0000;
-}
 
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 }
 
 .nav-link {
@@ -23,4 +23,3 @@ ul {
 .nav-link:hover {
     color: grey;
 }
-

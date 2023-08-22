@@ -21,6 +21,11 @@ main {
   text-decoration: none;
   color: white;
   font-size: 24px;
+  text-align: center;
+}
+.primeras .session img, .segundas .session img, .terceras .session img, .cuartas .session img, .quintas .session img, .sextas .session img, .septimas .session img {
+  width: 530px;
+  height: 300px;
 }
 
 /*# sourceMappingURL=a%C3%B1os.css.map */

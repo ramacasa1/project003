@@ -29,7 +29,13 @@ main {
         @include sessions;
         
         a {
-            @include sessions-a
+            @include sessions-a;
+            text-align: center;
+        }
+
+        img {
+            width: 530px;
+            height: 300px;
         }
 
     }
