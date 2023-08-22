@@ -1,20 +1,20 @@
 
-main {
-    display: flex;
-    flex-direction: row;
-
-    img {
-        margin: 30px;
-        height: 800px;
-    }
+img {
+    margin: 30px;
+    height: 800px;
 }
+
+
 
 .shows-america {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 600px;
+    justify-content: space-evenly;
     gap: 30px;
+
+    img {
+        width: 30%;
+        justify-content: left;
+    }
 }
 
 .lugares {
@@ -22,6 +22,7 @@ main {
     flex-direction: column;
     gap: 20px;
     color: white;
+    margin-top: 45px;
 
     .lugares-text {
         color: white;
