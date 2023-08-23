@@ -8,11 +8,15 @@
 
 .header {
   background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 .header ul {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
   align-items: center;
 }
 
@@ -38,25 +42,27 @@ footer hr {
 footer p {
   color: white;
   text-align: center;
-  padding-bottom: 39px;
+  padding-bottom: 40px;
 }
 
 .redes {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 30px;
-  gap: 20px;
+  align-items: center;
+  /*     padding: 30px; */
 }
 .redes img {
-  width: 90px;
-  height: 90px;
+  width: 45px;
+  height: 45px;
 }
 
 section img {
-  width: 96%;
+  width: 370px;
+  height: 500px;
+  justify-content: center;
   object-fit: cover;
-  height: 100vh;
+  align-self: center;
 }
 
 .cards-section {
@@ -70,13 +76,15 @@ section img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 60px;
-  width: 700px;
-  height: 400px;
+  justify-content: center;
+  width: 400px;
+  height: 100px;
   transition: 0.4s;
+  margin-bottom: 220px;
+  margin-top: 20px;
 }
-.cards:hover {
-  width: 900px;
+.cards .text-cards {
+  text-align: justify;
 }
 
 .cards-div {
@@ -97,8 +105,9 @@ section img {
   width: 45%;
   padding: 15px;
   justify-content: center;
+  align-items: center;
   color: white;
-  font-size: 16px;
+  font-size: 8px;
 }
 
 img {
@@ -402,6 +411,80 @@ hr {
   filter: opacity(0.75);
 }
 
+@media screen and (min-width: 450px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  .header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 450px) {
+  section img {
+    width: 96%;
+    height: 900px;
+  }
+}
+@media screen and (min-width: 450px) {
+  .cards {
+    justify-content: center;
+    width: 60%;
+    margin-top: 120px;
+  }
+}
+@media screen and (min-width: 450px) {
+  .text-cards {
+    font-size: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .parte1, .parte2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .doscerounonueve, .doscerodoscero {
+    margin-bottom: 400px;
+  }
+  .doscerodosdos {
+    margin-bottom: 400px;
+  }
+  .doscerodostres {
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 451px) {
+  .primeras {
+    /*         display: flex; */
+    flex-direction: row;
+  }
+  .session {
+    display: flex;
+    flex-direction: row;
+  }
+  /* .primeras, .segundas, .terceras, .cuartas, .quintas, .sextas, .septimas {
+      display: inline-block;
+      gap: 30px;
+      margin: 10px 50px;
+      justify-content: center;
+  } */
+}
+@media screen and (min-width: 450px) {
+  .redes {
+    gap: 5px;
+  }
+  .redes img {
+    width: 90px;
+    height: 90px;
+  }
+}
 main {
   display: flex;
   flex-direction: column;
@@ -410,11 +493,9 @@ main {
 
 .primeras, .segundas, .terceras, .cuartas, .quintas, .sextas, .septimas {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 30px;
-  margin: 10px 50px;
   justify-content: center;
-  overflow: hidden;
 }
 .primeras .session, .segundas .session, .terceras .session, .cuartas .session, .quintas .session, .sextas .session, .septimas .session {
   display: flex;
@@ -428,8 +509,8 @@ main {
   text-align: center;
 }
 .primeras .session img, .segundas .session img, .terceras .session img, .cuartas .session img, .quintas .session img, .sextas .session img, .septimas .session img {
-  width: 530px;
-  height: 300px;
+  width: 370px;
+  height: 280px;
 }
 
 /*# sourceMappingURL=style.css.map */

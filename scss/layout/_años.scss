@@ -19,11 +19,9 @@ main {
 
 .primeras, .segundas, .terceras, .cuartas, .quintas, .sextas, .septimas {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 30px;
-    margin: 10px 50px;
     justify-content: center;
-    overflow: hidden;
 
     .session {
         @include sessions;
@@ -34,8 +32,8 @@ main {
         }
 
         img {
-            width: 530px;
-            height: 300px;
+            width: 370px;
+            height: 280px;
         }
 
     }

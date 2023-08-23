@@ -1,0 +1,102 @@
+
+//HEADER //
+
+@media screen and (min-width:450px){
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 0px;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+
+    }
+}
+
+//INDEX //
+
+@media screen and (min-width:450px){
+    section img {
+        width: 96%;
+        height: 900px;
+    }
+}
+
+@media screen and (min-width:450px){
+    .cards {
+        justify-content: center;
+        width: 60%;
+        margin-top: 120px;
+    }
+}
+
+@media screen and (min-width:450px){
+    .text-cards {
+        font-size: 20px;
+        justify-content: center;
+        padding: 20px;
+    }
+}
+
+//SESSIONS //
+@media screen and (max-width:450px){
+    .parte1, .parte2 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .doscerounonueve, .doscerodoscero{
+        margin-bottom: 400px;
+    }
+
+    .doscerodosdos {
+        margin-bottom: 400px;
+    }
+
+    .doscerodostres {
+        margin-bottom: 100px;
+    }
+}
+
+// AÑOS //
+
+@media screen and (min-width:451px){
+
+    .primeras {
+/*         display: flex; */
+        flex-direction: row;
+    }
+    
+
+    .session {
+        display: flex;
+        flex-direction: row;
+    }
+    /* .primeras, .segundas, .terceras, .cuartas, .quintas, .sextas, .septimas {
+        display: inline-block;
+        gap: 30px;
+        margin: 10px 50px;
+        justify-content: center;
+    } */
+}   
+
+
+
+// FOOTER //
+
+@media screen and (min-width:450px){
+    .redes {
+        gap: 5px;
+
+        img {
+            width: 90px;
+            height: 90px;
+        }
+    }
+}
